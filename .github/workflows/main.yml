@@ -15,5 +15,5 @@ jobs:
       - name: Run script
         run: |
           echo "Hello DevOps ${{ secrets.CLIENT_ID }}"
-          echo "Environment is ${{ vars.ENV_NAME }}"
+          echo "Environment is ${{ vars.MAHESH }}"
       
